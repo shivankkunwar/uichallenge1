@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useCallback, useEffect, useRef } from 'react'
-import { Search, Grid3X3, Filter, ArrowUpDown, Plus, ChevronRight, LinkIcon, Loader2, ChevronLeft, User, LayoutGrid, Settings, HelpCircle, Menu, X, Check, MoreVertical, ChevronDown, Copy, Trash2, Edit3, ExternalLink } from 'lucide-react'
+import { Search, Grid3X3, Filter, ArrowUpDown, Plus, ChevronRight, LinkIcon, Loader2, ChevronLeft, User, LayoutGrid, Settings, HelpCircle, Menu, Check, MoreVertical, ChevronDown, Copy, Trash2, Edit3, ExternalLink } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Toggle } from '@/components/ui/toggle'
@@ -27,7 +27,6 @@ import {
     SheetContent,
     SheetHeader,
     SheetTitle,
-    SheetTrigger,
 } from "@/components/ui/sheet"
 import { useToast } from "@/hooks/use-toast"
 import {
